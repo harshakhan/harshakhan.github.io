@@ -14,10 +14,11 @@
 }
 
 .section_picture {
-  height: 140px;
-  width: 140px;
+  height: 210px;
+  width: 190px;
   border-radius: 100px;
-  border: 5px solid #bddeef;
+  padding: 0;
+  border: 7px solid #bddeef;
 }
 .dot {
   height: 40px;
@@ -137,4 +138,14 @@
   background: #00C9FF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+footer{
+  background-color: #111;
+  padding: 50px 0;
+  text-align: center;
+}
+.copyright{
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
